@@ -153,6 +153,8 @@ Step 1. Define a config.json file
 ```
 Step 2. Load the file into config
 ```go
+import "github.com/jiyeyuran/go-config"
+
 config.Load(file.NewSource(
 	file.WithPath("config.json"),
 ))
